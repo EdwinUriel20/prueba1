@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactanos - Art Kingdom</title>
+    <style>
+        body {
+            background-color: orange;
+            background-image: url("cata.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            font-family: Arial, sans-serif;
+            margin: 0; /* Elimina el margen por defecto del body */
+        }
+        h1 {
+            text-align: center;
+        }
+        marquee {
+            text-align: center;
+        }
+        .content {
+            text-align: center;
+            font-size: larger;
+        }
+        .social-links a {
+            display: block;
+            margin: 10px 0;
+            color: white; /* Cambia el color de los hipervínculos a blanco */
+            text-decoration: none; /* Elimina el subrayado de los enlaces */
+        }
+        .social-links a:hover {
+            color: lightgray; /* Cambia el color al pasar el ratón por encima */
+        }
+        .iframe-container {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .iframe-container iframe {
+            border: 5px solid black; /* Añade un borde negro */
+            border-radius: 10px; /* Añade bordes redondeados */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Añade una sombra */
+        }
+        .back-link {
+            position: absolute;
+            top: 20px; /* Ajusta la distancia desde la parte superior */
+            left: 20px; /* Ajusta la distancia desde la izquierda */
+        }
+        .back-link a, .home-link a {
+            background-color: black; /* Color de fondo del botón */
+            color: white; /* Color del texto del botón */
+            padding: 10px 20px; /* Relleno del botón */
+            text-decoration: none; /* Elimina el subrayado del enlace */
+            border-radius: 5px; /* Bordes redondeados */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Añade una sombra */
+            transition: background-color 0.3s, transform 0.3s; /* Añade una transición suave */
+        }
+        .back-link a:hover, .home-link a:hover {
+            background-color: darkgray; /* Color de fondo al pasar el ratón */
+            transform: translateY(-2px); /* Eleva el botón al pasar el ratón */
+        }
+        .home-link {
+            position: absolute;
+            top: 20px; /* Ajusta la distancia desde la parte superior */
+            right: 20px; /* Ajusta la distancia desde la derecha */
+        }
+    </style>
+</head>
+<body>
+    <div class="home-link">
+        <a href="CATALOGO.HTML">CATÁLOGO</a>
+    </div>
+    <div class="back-link">
+        <a href="INDEX.HTML">INICIO</a>
+    </div>
+    <h1>ART KINGDOM</h1>
+    <hr>
+    <marquee>CONÓCENOS</marquee>
+    <div class="content">
+        <p><i>Muchas gracias por apoyarnos! Aquí tienes algunas de nuestras redes sociales para que nos contactes:</i></p>
+    </div>
+    <div class="social-links content">
+        <a href="https://www.facebook.com/profile.php?id=61560037037213&is_tour_dismissed/">Facebook</a>
+        <a href="https://www.youtube.com/watch?v=daXHFKYBtE4/">YouTube</a>
+        <a href="https://www.instagram.com">Instagram</a>
+    </div>
+    <div class="content">
+        <p><i>Si te gustaría visitar un museo referente a los videojuegos, puedes asistir aquí:</i></p>
+    </div>
+    <div class="iframe-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17894.418666845708!2d-99.21175990371026!3d19.46254471339894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d203208d36b80b%3A0x6d04d3522b5ccb0a!2sThe%20Arcade%20Gallery%20Museo%20Del%20Videojuego!5e0!3m2!1ses-419!2smx!4v1717291516906!5m2!1ses-419!2smx" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</body>
+</html>
+
